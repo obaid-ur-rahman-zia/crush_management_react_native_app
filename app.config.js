@@ -14,6 +14,7 @@ export default {
       supportsTablet: true,
     },
     android: {
+      package: process.env.ANDROID_PACKAGE || "com.crushmanagement.app",
       adaptiveIcon: {
         backgroundColor: "#E6F4FE",
         foregroundImage: "./assets/images/android-icon-foreground.png",
